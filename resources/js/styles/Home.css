@@ -1,0 +1,28 @@
+:root{
+    --image1: "https://i2.wp.com/www.oinkoink.com.mx/wp-content/uploads/2021/04/que-se-puede-comprar-con-vales.jpg?fit=1280%2C720&ssl=1"
+}
+.home__empieza{
+    background-image: url("https://i2.wp.com/www.oinkoink.com.mx/wp-content/uploads/2021/04/que-se-puede-comprar-con-vales.jpg?fit=1280%2C720&ssl=1");
+    width: 95%;
+    height: 40rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home__options{
+    margin: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.home__options > div{
+    margin-bottom: 2rem;
+    padding: 0 0.5rem;
+}
+@media (min-width: 769px) {
+    .home__options{
+        grid-template-columns: repeat(3,minmax(1rem,1fr));
+    }
+}

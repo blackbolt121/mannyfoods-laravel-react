@@ -1,0 +1,30 @@
+:root{
+    --black: #070707;
+    --true_blue: #4062BB;
+    --orange_peel: #FF9F1C;
+    --platinum: #EBEBEB;
+    --caribean_green: #00C49A;
+}
+footer{
+    position: absolute;
+    margin-top: 1rem;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-color: var(--orange_peel);
+}
+.menu__footer{
+    text-align: right;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+}
+.menu__footer a{
+    font-size: 1rem;
+    margin-right: 2rem;
+    color: white;
+    text-decoration: none;
+}
+.copy{
+    font-size: 1rem;
+}

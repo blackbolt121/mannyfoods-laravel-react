@@ -1,0 +1,27 @@
+.counter__component{
+    min-width: 100px;
+    max-width: 400px;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    align-items: center;
+    justify-content: center;
+
+}
+.counter__component input {
+    text-align: center;
+    height: auto;
+}
+.counter__component button{
+    color: white;
+    font-weight: bolder;
+    background-color: blue;
+    border-radius: 0.4rem;
+    padding: 0.1rem;
+}
+.counter__component--add{
+    background-color: green !important;
+}
+.counter__component--sub{
+    background-color: red !important;
+}

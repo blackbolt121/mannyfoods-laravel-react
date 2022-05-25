@@ -1,0 +1,9 @@
+.notfound{
+    margin-top: 10rem;
+}
+.notfound > h1{
+    font-size: 8rem;
+}
+.notfound > p{
+    font-size: 3rem;
+}

@@ -1,0 +1,26 @@
+.acerca__container{
+    padding: 1rem;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+.line{
+    background-color: black;
+    height: 0.2rem;
+    width: 95%;
+}
+.acerca__container img{
+    width: 70%;
+}
+.acerca__container h3{
+    font-size: 1.8rem;
+    margin: 1rem auto;
+}
+.acerca__container p{
+    width: 90%;
+    margin: 1rem auto;
+}
+@media (max-width: 768px) {
+    .acerca__container img{
+        width: 100%;
+    }
+}
